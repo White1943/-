@@ -13,8 +13,8 @@ void delete_nums(int start, vector<int> &nums)
 }
 int main()
 {
-    f08();
-
+    // f08();
+    cout<<3333;
     return 0;
 }
 void f08()
