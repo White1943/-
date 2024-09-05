@@ -41,6 +41,7 @@ vector<int> postorderTraversal(TreeNode *root) {
 
     return result;
 }
+//158页第 题
 vector<int> downToTopWithRL(TreeNode *root) {//从下到上,右到左的层次遍历
     queue<TreeNode *>t;
     stack<TreeNode *>res;
@@ -61,7 +62,7 @@ vector<int> downToTopWithRL(TreeNode *root) {//从下到上,右到左的层次�
     }
 
 }
-// 创建新节点
+ 
 TreeNode* newNode(int val) {
     TreeNode* node = new TreeNode(val);
     return node;
